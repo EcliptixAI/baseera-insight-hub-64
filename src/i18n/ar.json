@@ -1,0 +1,158 @@
+{
+  "app": {
+    "name": "بصيرة",
+    "tagline": "رؤية قبل القرار",
+    "copyright": "© 2024 بصيرة - جميع الحقوق محفوظة",
+    "version": "v1.0.0-beta"
+  },
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "newAnalysis": "تحليل جديد",
+    "pastAnalyses": "التحليلات السابقة",
+    "caseLibrary": "مكتبة الحالات",
+    "reports": "التقارير",
+    "settings": "الإعدادات",
+    "developers": "للمطورين",
+    "logout": "تسجيل الخروج"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "rememberMe": "تذكرني",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "secureConnection": "اتصال آمن"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "totalAnalyses": "إجمالي التحليلات",
+    "highRiskCaught": "مخاطر عالية تم رصدها",
+    "avgProcessingTime": "متوسط وقت المعالجة",
+    "accuracyRate": "نسبة الدقة",
+    "seconds": "ثانية",
+    "recentAnalyses": "أحدث التحليلات",
+    "riskDistribution": "توزيع المخاطر",
+    "quickActions": "إجراءات سريعة",
+    "analyzeNew": "تحليل قرار جديد",
+    "browseCases": "استعراض الحالات",
+    "viewReports": "عرض التقارير"
+  },
+  "analysis": {
+    "new": "تحليل جديد",
+    "upload": "رفع المستند",
+    "dragDrop": "اسحب وأفلت الملف هنا",
+    "orChoose": "أو اختر ملفاً",
+    "supportedFormats": "الصيغ المدعومة: PDF, DOCX, TXT",
+    "maxSize": "الحجم الأقصى: 25 ميجابايت",
+    "configuration": "إعدادات التحليل",
+    "category": "تصنيف القرار",
+    "sensitivity": "مستوى الحساسية",
+    "historicalComparison": "تضمين المقارنة التاريخية",
+    "targetAudience": "الجمهور المستهدف",
+    "analyze": "بدء التحليل",
+    "processing": "جاري المعالجة",
+    "steps": {
+      "analyzing": "جاري تحليل النص...",
+      "checkingTerms": "فحص المصطلحات الحساسة...",
+      "comparing": "مقارنة مع الحالات السابقة...",
+      "generating": "إنشاء التقرير..."
+    }
+  },
+  "results": {
+    "title": "نتائج التحليل",
+    "overallRisk": "مستوى المخاطر الإجمالي",
+    "recommendation": "التوصية",
+    "goAhead": "موافق للتنفيذ",
+    "reviewRequired": "مراجعة مطلوبة",
+    "highRisk": "مخاطر عالية",
+    "riskScorecard": "بطاقة المخاطر",
+    "legalRisks": "المخاطر القانونية",
+    "reputationRisks": "مخاطر السمعة",
+    "operationalRisks": "المخاطر التشغيلية",
+    "sensitiveTerms": "المصطلحات الحساسة",
+    "term": "المصطلح",
+    "context": "السياق",
+    "sensitivityLevel": "مستوى الحساسية",
+    "suggestedAlt": "البديل المقترح",
+    "historicalMatches": "الحالات المشابهة",
+    "similarity": "نسبة التشابه",
+    "outcome": "النتيجة",
+    "keyLesson": "الدرس الرئيسي",
+    "recommendations": "التوصيات",
+    "improvedDraft": "المسودة المحسنة",
+    "original": "النص الأصلي",
+    "improved": "النص المحسن",
+    "downloadReport": "تحميل التقرير الكامل",
+    "editReanalyze": "تعديل وإعادة التحليل",
+    "approveDecision": "اعتماد القرار",
+    "archive": "أرشفة"
+  },
+  "cases": {
+    "title": "مكتبة الحالات الدراسية",
+    "search": "بحث في الحالات...",
+    "filters": "التصفية",
+    "category": "التصنيف",
+    "outcome": "النتيجة",
+    "sector": "القطاع",
+    "year": "السنة",
+    "viewDetails": "عرض التفاصيل",
+    "challenges": "التحديات",
+    "lessonsLearned": "الدروس المستفادة",
+    "relatedCases": "حالات ذات صلة"
+  },
+  "reports": {
+    "title": "التقارير",
+    "generate": "إنشاء تقرير",
+    "dateRange": "الفترة الزمنية",
+    "reportType": "نوع التقرير",
+    "includeCharts": "تضمين الرسوم البيانية",
+    "exportFormat": "صيغة التصدير",
+    "pastReports": "التقارير السابقة",
+    "name": "اسم التقرير",
+    "date": "التاريخ",
+    "type": "النوع",
+    "size": "الحجم",
+    "action": "إجراء",
+    "download": "تحميل"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "profile": "الملف الشخصي",
+    "notifications": "الإشعارات",
+    "language": "اللغة",
+    "security": "الأمان",
+    "api": "الوصول للـ API"
+  },
+  "common": {
+    "low": "منخفض",
+    "medium": "متوسط",
+    "high": "عالي",
+    "success": "ناجح",
+    "failed": "فاشل",
+    "mixed": "متفاوت",
+    "loading": "جاري التحميل...",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "back": "رجوع",
+    "next": "التالي",
+    "all": "الكل"
+  },
+  "categories": {
+    "administrative": "إداري",
+    "financial": "مالي",
+    "policy": "سياسات",
+    "hr": "موارد بشرية",
+    "communication": "تواصل"
+  },
+  "sensitivity": {
+    "standard": "عادي",
+    "high": "عالي",
+    "critical": "حرج"
+  },
+  "audience": {
+    "internal": "داخلي",
+    "public": "عام",
+    "stakeholders": "أصحاب المصلحة"
+  }
+}
