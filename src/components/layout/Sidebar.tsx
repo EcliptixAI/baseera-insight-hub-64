@@ -33,7 +33,7 @@ export function Sidebar() {
   return (
     <motion.aside
       className={cn(
-        "fixed top-0 right-0 h-screen gradient-hero pattern-islamic z-40 flex flex-col transition-all duration-300",
+        "fixed top-0 right-0 h-screen gradient-hero pattern-islamic z-40 flex flex-col transition-all duration-300 bg-slate-900",
         sidebarCollapsed ? "w-20" : "w-64"
       )}
       initial={{ x: 100 }}

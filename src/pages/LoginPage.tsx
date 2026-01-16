@@ -101,10 +101,7 @@ export default function LoginPage() {
                 />
                 <span className="text-sm text-muted-foreground">تذكرني</span>
               </label>
-              <a
-                href="#"
-                className="text-sm text-primary hover:underline"
-              >
+              <a href="#" className="text-sm text-primary hover:underline">
                 نسيت كلمة المرور؟
               </a>
             </div>
@@ -148,7 +145,7 @@ export default function LoginPage() {
       </div>
 
       {/* Right Side - Branding */}
-      <div className="hidden lg:flex flex-1 gradient-hero pattern-islamic items-center justify-center p-12 relative overflow-hidden">
+      <div className="hidden lg:flex flex-1 bg-slate-900 gradient-hero pattern-islamic items-center justify-center p-12 relative overflow-hidden">
         {/* Decorative Elements */}
         <motion.div
           className="absolute top-20 left-20 w-64 h-64 bg-white/5 rounded-full blur-3xl"

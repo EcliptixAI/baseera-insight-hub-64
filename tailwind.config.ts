@@ -8,6 +8,10 @@ export default {
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
   ],
+  safelist: [
+    "gradient-hero",
+    "pattern-islamic",
+  ],
   prefix: "",
   theme: {
     container: {
